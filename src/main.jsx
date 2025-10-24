@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
+import XaridlarTarixi from "./pages/XaridlarTarixi.jsx" 
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/xaridlar",
+        element: <XaridlarTarixi/>,
       }
     ]
   },
@@ -24,6 +29,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )

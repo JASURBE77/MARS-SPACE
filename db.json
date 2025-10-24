@@ -1,0 +1,274 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mars Pen",
+      "price": 49,
+      "stock": 15,
+      "stockType": "count",
+      "category": "stationery",
+      "image": "https://lab.marsit.uz/media/shop/Mars%20pen/sensor_ruchka_mars-removebg-preview.png"
+    },
+    {
+      "id": 2,
+      "name": "Keyboard Sticker",
+      "price": 49,
+      "stock": "-1",
+      "stockType": "range",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Keyboard%20sticker/Shop_keyboard_sticker-removebg-preview.png"
+    },
+    {
+      "id": 3,
+      "name": "Strobar",
+      "price": 49,
+      "stock": "304",
+      "stockType": "range",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Strobar/strobar_compressed.png"
+    },
+    {
+      "id": 4,
+      "name": "Branded Sticker Pack",
+      "price": 99,
+      "stock": 7,
+      "stockType": "count",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20Sticker%20Pack/Shop_stickers-removebg-preview.png"
+    },
+    {
+      "id": 5,
+      "name": "Kevchain",
+      "price": 149,
+      "stock": 10,
+      "stockType": "count",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Keychain/brelok_mars-removebg-preview.png"
+    },
+    {
+      "id": 6,
+      "name": "Mars Rug",
+      "price": 149,
+      "stock": "-1",
+      "stockType": "range",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Mars%20rug/mars_kovrik_-removebg-preview.png"
+    },
+    {
+      "id": 7,
+      "name": "Notepad",
+      "price": 149,
+      "stock": 4,
+      "stockType": "count",
+      "category": "stationery",
+      "image": "https://lab.marsit.uz/media/shop/Notepad/mars_it_schoool-removebg-preview.png"
+    },
+    {
+      "id": 8,
+      "name": "Phone Stand",
+      "price": 199,
+      "stock": 10,
+      "stockType": "count",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Phone%20Stand/mars_telefon_stoyka-removebg-preview.png"
+    },
+    {
+      "id": 9,
+      "name": "Mug",
+      "price": 199,
+      "stock": "-1",
+      "stockType": "range",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Mug/mars_bakal-removebg-preview.png"
+    },
+    {
+      "id": 10,
+      "name": "Branded Cap",
+      "price": 199,
+      "stock": "4",
+      "stockType": "range",
+      "category": "clothing",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20Cap/kepka_mars-removebg-preview.png"
+    },
+    {
+      "id": 11,
+      "name": "USB Flash Drive",
+      "price": 299,
+      "stock": "0",
+      "stockType": "range",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/USB%20flash%20drive/fleshka_mars-removebg-preview.png"
+    },
+    {
+      "id": 12,
+      "name": "Wireless Mouse",
+      "price": 299,
+      "stock": "1",
+      "stockType": "range",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Wireless%20mouse/wireless_mouse_compressed.png"
+    },
+    {
+      "id": 13,
+      "name": "Mouse",
+      "price": 349,
+      "stock": "1",
+      "stockType": "range",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Mouse/mouse_compressed.png"
+    },
+    {
+      "id": 14,
+      "name": "Branded Thermos",
+      "price": 349,
+      "stock": "4",
+      "stockType": "range",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20Thermos/termos_mars-removebg-preview.png"
+    },
+    {
+      "id": 15,
+      "name": "Screen Glasses",
+      "price": 399,
+      "stock": "0",
+      "stockType": "range",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Screen%20Glasses/Group_513198-removebg-preview.png"
+    },
+    {
+      "id": 16,
+      "name": "Branded T-Shirt",
+      "price": 399,
+      "stock": "0",
+      "stockType": "range",
+      "category": "clothing",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20T-shirt/fudbolka_mars-removebg-preview.png"
+    },
+    {
+      "id": 17,
+      "name": "Keyboard",
+      "price": 399,
+      "stock": 13,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Keyboard/keyboard_compressed.png"
+    },
+    {
+      "id": 18,
+      "name": "Keyboard&Mouse",
+      "price": 549,
+      "stock": 13,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Keyboard&mouse/keyboard__mouse_compressed.png"
+    },
+    {
+      "id": 19,
+      "name": "Wireless Keyboard & Mouse",
+      "price": 599,
+      "stock": 17,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Wireless%20keyboard%20&%20mouse/Shop_keyboardmouse-removebg-preview.png"
+    },
+    {
+      "id": 20,
+      "name": "AirPods Max",
+      "price": 599,
+      "stock": 12,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/AirPods%20Max/Shop_AirPodsmax-removebg-preview.png"
+    },
+    {
+      "id": 21,
+      "name": "Branded Powerbank",
+      "price": 699,
+      "stock": 11,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20Powerbank/branded_powerband.png"
+    },
+    {
+      "id": 22,
+      "name": "Branded Hoodie",
+      "price": 699,
+      "stock": 11,
+      "stockType": "count",
+      "category": "clothing",
+      "image": "https://lab.marsit.uz/media/shop/Branded%20Hoodie/mars_oq_xudi-removebg-preview.png"
+    },
+    {
+      "id": 23,
+      "name": "AirPods",
+      "price": 799,
+      "stock": 12,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/AirPods/Shop_Airpods-removebg-preview.png"
+    },
+    {
+      "id": 24,
+      "name": "MARS Backpack",
+      "price": 799,
+      "stock": "5 ",
+      "stockType": "preorder",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/MARS%20Backpack%20(Chegirma)/Group_513188.png"
+    },
+    {
+      "id": 25,
+      "name": "Smartwatch",
+      "price": 949,
+      "stock": 11,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Smart%20watch/Shop_smart_watch-removebg-preview.png"
+    },
+    {
+      "id": 26,
+      "name": "Yandex Station",
+      "price": 2490,
+      "stock": 12,
+      "stockType": "count",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Yandex%20Station/Shop_Yandex_station-removebg-preview.png"
+    },
+    {
+      "id": 27,
+      "name": "Discount",
+      "price": 4990,
+      "stock": 10,
+      "stockType": "count",
+      "category": "accessories",
+      "image": "https://lab.marsit.uz/media/shop/Discount/discount100.png"
+    },
+    {
+      "id": 28,
+      "name": "Smartphone",
+      "price": 5490,
+      "stock": "2",
+      "stockType": "preorder",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Smartphone/Shop_phone-removebg-preview.png"
+    },
+    {
+      "id": 29,
+      "name": "Planshet Samsung",
+      "price": 6990,
+      "stock": "1",
+      "stockType": "preorder",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Planshet%20Samsung/Shop_planshet-removebg-preview.png"
+    },
+    {
+      "id": 30,
+      "name": "Playstation 5",
+      "price": 9990,
+      "stock": " 1",
+      "stockType": "preorder",
+      "category": "electronics",
+      "image": "https://lab.marsit.uz/media/shop/Playstation%205/Shop_PS5-removebg-preview.png"
+    }
+  ]
+}
