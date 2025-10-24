@@ -25,8 +25,19 @@ const Shop = () => {
 
   const handleConfirmPurchase = () => {
     if (password === "77777") {
+      // Zakaz vaqtini qo'shamiz
+      const purchaseWithTimestamp = {
+        ...selectedProduct,
+        orderDate: new Date().toISOString(),
+        orderTime: new Date().toLocaleString('uz-UZ'),
+        timestamp: Date.now(),
+        orderId: Math.random().toString(36).substr(2, 9).toUpperCase(),
+        status: "Olib ketish mumkin",
+        store: "Strobar"
+      };
+
       const history = JSON.parse(localStorage.getItem("purchases")) || [];
-      history.push(selectedProduct);
+      history.unshift(purchaseWithTimestamp);
       localStorage.setItem("purchases", JSON.stringify(history));
 
       setShowModal(false);
@@ -98,8 +109,8 @@ const Shop = () => {
         ))}
       </div>
 
-      {/* 🔐 Parol oynasi - X tugmasi bilan */}
-      {showModal && (
+      {/* 🔐 Yangi modal dizayn - soddalashtirilgan */}
+      {showModal && selectedProduct && (
         <div className="fixed inset-0 flex items-center justify-center z-50 p-4 bg-black/30 backdrop-blur-sm">
           <div className="bg-white rounded-2xl p-6 w-full max-w-sm shadow-2xl border border-gray-100 relative">
             
@@ -111,9 +122,29 @@ const Shop = () => {
               ×
             </button>
 
-            <p className="text-gray-500 text-center mb-6">5 ta raqamli parol</p>
+            {/* Mahsulot rasmi */}
+            <div className="w-full flex justify-center mb-4">
+              <img
+                src={selectedProduct.image}
+                alt={selectedProduct.name}
+                className="w-24 h-24 object-contain"
+              />
+            </div>
 
-            <div className="mb-6">
+            {/* Mahsulot nomi */}
+            <h3 className="text-lg font-semibold text-gray-800 mb-2 text-center">
+              {selectedProduct.name}
+            </h3>
+
+            {/* Narx */}
+            <div className="flex items-center justify-center gap-2 text-base mb-6">
+              <span className="font-semibold text-gray-800">{selectedProduct.price}</span>
+              <span className="text-yellow-500 text-lg">🪙</span>
+            </div>
+
+            {/* Parol kiritish joyi */}
+            <div className="mb-4">
+              <p className="text-gray-500 text-sm mb-2 text-center">5 ta raqamli parol</p>
               <input
                 type="text"
                 maxLength={5}
@@ -125,10 +156,6 @@ const Shop = () => {
                 placeholder="Parolni kiriting"
                 className="w-full px-4 py-3 text-center text-lg font-semibold border-2 border-gray-300 rounded-xl focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all text-gray-900"
               />
-            </div>
-
-            <div className="text-center mb-4">
-              <p className="text-gray-500 text-sm">Marsianadan so'rang</p>
             </div>
 
             {error && (
