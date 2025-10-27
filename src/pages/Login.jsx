@@ -1,21 +1,20 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
-export default function Login() {
+export default function MarsLogin() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
-    e.preventDefault();
-
+    e.preventDefault(); // ← () unutilgan
     try {
       const res = await fetch("http://localhost:3000/users");
-      const users = await res.json();
+      const users = await res.json(); // ← () unutilgan
 
       const user = users.find(
         (u) => u.usernames === username && u.password === password
-      );
+      ); // ← ) yopilmagan edi
 
       if (user) {
         localStorage.setItem("isLoggedIn", "true");
@@ -30,74 +29,69 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* HEADER */}
-      <header className="border-b border-gray-300">
-        <div className="max-w-6xl mx-auto flex justify-between items-center py-10 px-6">
-          <img src="image 2 (1).png" alt="marsit_logo" className="w-36" />
-          <div className="flex items-center gap-3">
-            <img src="Vector (4).png" alt="til" className="w-6 h-6" />
-            <p className="text-2xl font-bold text-gray-700">O'zb</p>
-          </div>
+    <div className="w-full h-screen bg-white flex flex-col">
+      {/* Header */}
+      <header className="w-full flex justify-between items-center px-10 py-5">
+        <img
+          src="data:image/webp;base64,UklGRm4MAABXRUJQVlA4WAoAAAAQAAAA2gEAZQAAQUxQSHUGAAABsFTbVljb1pSwJCABCUiIBCREAhKQgIRIQAISkICDWbhvkxVYOe2n..."
+          alt="Mars Logo"
+          className="h-6"
+        />
+        <div className="flex items-center gap-2 text-sm font-medium text-[#1E1E1E]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-5 h-5 text-[#f97316]"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M12 21a9 9 0 100-18 9 9 0 000 18z"
+            />
+          </svg>
+          O'zb
         </div>
       </header>
 
-      {/* MAIN */}
-      <main className="flex justify-center py-10">
-        <div className="w-[650px] h-[890px] border border-[#DEDBDB] rounded-[50px] p-8 shadow-sm">
-          <h1 className="text-4xl md:text-5xl text-[#0E0D5D] text-center font-bold mt-20">
-            Spacega hush kelibsiz
-          </h1>
+      {/* Main Section */}
+      <main className="flex flex-1 items-center justify-start bg-gradient-to-br from-[#d1dcff] to-[#f5d5ff] relative overflow-hidden pl-[8%]">
+        <div className="absolute inset-0">
+          <img
+            src="https://space.marsit.uz/img/auth-bg.ad12831f.webp"
+            alt="Background"
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
 
-          {/* Toggle */}
-          <div className="w-[533px] h-[70px] bg-[#F5F5F5] rounded-[20px] flex p-2 mx-auto mt-20">
-            <button
-              className="flex-1 flex justify-center items-center text-2xl font-medium rounded-[15px] bg-white text-black shadow-sm"
-            >
-              O'quvchiman
-            </button>
-            <button
-              className="flex-1 flex justify-center items-center text-2xl font-medium rounded-[15px] text-[#757575] hover:text-black"
-            >
-              Ota-onaman
-            </button>
-          </div>
+        {/* Login Card */}
+        <div className="relative z-10 bg-white rounded-2xl shadow-lg w-[420px] px-10 py-12 flex flex-col items-center">
+          <h2 className="text-2xl font-bold mb-6 text-[#1E1E1E]">Tizimga kirish</h2>
 
-          {/* FORM */}
-          <form
-            onSubmit={handleLogin}
-            className="flex flex-col items-center gap-10 mt-20"
-          >
-            {/* Username input */}
+          <form onSubmit={handleLogin} className="w-full flex flex-col gap-5">
             <input
               type="text"
               placeholder="Foydalanuvchi nomi"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-[533px] h-[70px] bg-[#FAFAFA] border border-gray-300 rounded-[20px] placeholder:text-2xl text-2xl px-8 focus:outline-none focus:border-[#F69E86] transition"
+              className="border border-gray-300 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-[#f97316]"
             />
 
-            {/* Password input */}
-            <div className="relative w-[533px]">
-              <input
-                type="password"
-                placeholder="Parol"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="w-full h-[70px] bg-[#FAFAFA] border border-gray-300 rounded-[20px] placeholder:text-2xl text-2xl px-8 pr-14 focus:outline-none focus:border-[#F69E86] transition"
-              />
-              <img
-                src="Eye.png"
-                alt="eye"
-                className="absolute right-5 top-1/2 -translate-y-1/2 w-6 h-6 opacity-70 cursor-pointer"
-              />
-            </div>
+            <input
+              type="password"
+              placeholder="Parol"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="border border-gray-300 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-[#f97316]"
+            />
 
             <button
               type="submit"
-              className="w-[202px] h-[67px] border border-[#F69E86] text-black text-2xl font-medium rounded-[20px] hover:bg-[#F69E86] hover:text-white transition mt-10"
+              className="bg-[#f97316] text-white font-semibold py-2 rounded-lg hover:bg-[#ea580c] transition"
             >
-              Подтвердить
+              Kirish
             </button>
           </form>
         </div>

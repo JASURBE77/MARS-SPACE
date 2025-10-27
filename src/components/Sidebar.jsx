@@ -45,14 +45,7 @@ export default function Sidebar() {
      </Link>
 
       {/* MarsCode */}
-      <button
-        onClick={() => setActive("<MarsCode/>")}
-        className={`flex items-center gap-3 px-2 w-[200px] py-2 rounded-xl transition-all duration-200 
-          ${active === "<MarsCode/>" ? "bg-orange-400 text-white" : "hover:bg-gray-200 text-gray-700"}`}
-      >
-        <Code2 size={20} />
-        <span>&lt;MarsCode/&gt;</span>
-      </button>
+
 
       {/* Blog */}
    <Link to={'/blog'}>

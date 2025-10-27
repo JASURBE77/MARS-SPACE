@@ -171,6 +171,8 @@ export default function Blog() {
   const [openModal, setOpenModal] = useState(false);
   const [posts, setPosts] = useState([]);
   const [newText, setNewText] = useState("");
+  const [newPicture, setNewPicture] = useState("");
+
   const getUser = JSON.parse(localStorage.getItem("currentUser"));
 
   // JSON Serverdan postlarni olish
@@ -188,6 +190,7 @@ export default function Blog() {
       userName: getUser.usernames,
       userSurname: getUser.userSurname,
       userImg: getUser.img,
+      picture: newPicture,
       text: newText,
       time: new Date().toISOString(),
       likes: 0,
@@ -260,6 +263,8 @@ export default function Blog() {
             </div>
 
             {/* Post text */}
+            <img className="w-full" src={post.picture} alt="" />
+            
             <p className="text-gray-800 mb-4">{post.text}</p>
 
             {/* Like & Comment */}
@@ -296,7 +301,9 @@ export default function Blog() {
         <AddPostModal
           user={getUser}
           text={newText}
+          picture={newPicture}
           setText={setNewText}
+          setpicture={setNewPicture}
           onClose={() => setOpenModal(false)}
           onPost={handleAddPost}
         />
@@ -305,7 +312,7 @@ export default function Blog() {
   );
 }
 
-function AddPostModal({ user, text, setText, onClose, onPost }) {
+function AddPostModal({ user, text, setText, onClose, onPost, picture, setpicture }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
       <div className="bg-white rounded-2xl w-full max-w-lg p-6 relative shadow-lg">
@@ -351,10 +358,8 @@ function AddPostModal({ user, text, setText, onClose, onPost }) {
         {/* File upload box */}
         <label className="flex items-center gap-2 border rounded-xl p-3 mt-4 cursor-pointer hover:bg-gray-50 transition">
           <Image className="text-red-500" />
-          <span className="text-sm text-gray-500">
-            Faylni yuklash uchun shu yerga bosing
-          </span>
-          <input type="file" className="hidden" />
+          
+          <input type="text" value={picture} onChange={(e) => setpicture(e.target.value)} className="" />
         </label>
 
         {/* Yuborish tugmasi */}

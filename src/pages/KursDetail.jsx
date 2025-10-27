@@ -60,7 +60,7 @@ const KursDetail = () => {
     <div className="min-h-screen bg-[#F3F6F9] p-4 md:p-6">
       <div className="max-w-4xl mx-auto">
         <button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/kurslar')}
           className="flex items-center text-gray-600 hover:text-gray-800 mb-6 transition-colors"
         >
           <svg
