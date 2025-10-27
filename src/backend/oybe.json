@@ -1,0 +1,812 @@
+{
+  "kurslar": [
+    {
+      "id": 1,
+      "nomi": "Beginner",
+      "kod": "BG-1843",
+      "rasm": "https://lab.marsit.uz/media/group_category_images/44/beginner_icon.png",
+      "modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "1 Tanishuv",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "2 Elektron pochta va Canva logotiplar",
+              "savollar_soni": 1,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "3 Canva - vizikta",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "4 Klaviatura va Telegram",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "5 Photopea",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 1, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "7 Figma",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": ""
+            },
+            {
+              "id": 8,
+              "nomi": "8 Figma",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": ""
+            },
+            {
+              "id": 9,
+              "nomi": "9 Figma",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": ""
+            },
+            {
+              "id": 10,
+              "nomi": "10 Telegram Bot #2",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": ""
+            },
+            {
+              "id": 11,
+              "nomi": "11 Vectary",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": ""
+            },
+            {
+              "id": 12,
+              "nomi": "Logiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nomi": "Front-End (HTML & CSS)",
+      "kod": "F1-1925",
+      "rasm": "https://lab.marsit.uz/media/group_category_images/49/front_icon_UWMlxW7.png",
+      "modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "Frontendga kirish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Html taglar Va Extensionlardan foydalanish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Iframe va <a> taglari",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Rasm turlari va img tag",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Royhat elementlar",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 1, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Css ga kirish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Css Davomi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Table",
+              "savollar_soni": 0,
+"boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "Form taglari",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "GitHub vs Git",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Box Modeling",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "FlexBox Semantik taglar",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "FlexBox davomi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "FlexBox Mustahkamlash",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Semantik taglar va font-family",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Psuedo class",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Psuedo element",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "Background img",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Box Shadow vs Text shadow",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Logiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 4, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Portfolio",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Portfolio (Tugatish)",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Tailwind",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "Tailwind asoslari",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Proekt Tugatish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nomi": "Front-End (JavaScript)",
+      "kod": "F2-2394",
+
+"rasm": "https://lab.marsit.uz/media/group_category_images/57/front_icon_I2cmJKt.png",
+
+"modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "JavaScript Kirish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Data Types and Type convertion",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Arifmetik operatorlar & Math methodlari vs if else",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "String metodlari",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Object",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 1, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "For & While",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Array(davomi) & for of vs forEach",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Dom",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "Dom createElement",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "Function",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Switch case",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "setTimeout , setInterval",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "addEventListener events",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "TodoList",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Amaliyot (Davomi Space)",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Map, Filter",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+"nomi": "Sort vs Reduce",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+
+},
+            {
+              "id": 11,
+              "nomi": "Pokemon tugatish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 4, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "NPM",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Chart.js",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Music Player",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "Notification",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Memory Card Game",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nomi": "Front-End (React)",
+      "kod": "F3-2774",
+      "rasm": "https://lab.marsit.uz/media/group_category_images/57/front_icon_I2cmJKt.png",
+      "modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "React Kirish",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Styling and Adding Images",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "JSX tushunchasi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Git hub",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Deploy",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 1, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Props",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "List rendering",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+"nomi": "Event Handling || Functions",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+"id": 2,
+              "nomi": "useState Hook",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Hamster Kombat",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Hamster Kombat davomi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Form Handling",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 2, BLOK 2",
+          "bloklar": [
+            {
+              "id": 7,
+              "nomi": "Loading va Error handling",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 8,
+              "nomi": "Jamoaviy ishlash | GitHub",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 9,
+              "nomi": "React Router Dom",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 10,
+              "nomi": "React Router Dom Davomi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 11,
+              "nomi": "useParams and ProtectedRoute",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 12,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        },
+        {
+          "nomi": "MODUL 4, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "Material UI",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Amaliyot",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Context API",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Context API",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nomi": "Rocket MARS",
+      "kod": "FREE",
+      "rasm": "https://lab.marsit.uz/media/group_category_images/43/free_course_icon.png",
+      "modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+          "bloklar": [
+            {
+              "id": 1,
+              "nomi": "QR-kodlar",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Busurrka",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Dasturlash",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nomi": "Beginner+ (Online)",
+
+"kod": "FREE",
+      "rasm": "https://lab.marsit.uz/media/group_category_images/43/free_course_icon.png",
+      "modullar": [
+        {
+          "nomi": "MODUL 1, BLOK 1",
+
+"bloklar": [
+            {
+              "id": 1,
+              "nomi": "PowerPoint",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 2,
+              "nomi": "Google Slides",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 3,
+              "nomi": "Microsoft Word",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 4,
+              "nomi": "Google Docs",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 5,
+              "nomi": "Google Docs",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            },
+            {
+              "id": 6,
+              "nomi": "Loyiha ishi",
+              "savollar_soni": 0,
+              "boshlash_tugmasi": "Start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

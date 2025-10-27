@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen bg-[#F3F6FA] flex justify-center p-4">
+    <div className="w-full min-h-screen bg-gray-50 flex justify-center p-4">
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-6">
 
         {/* ======= Left Column (Scrollable) ======= */}
